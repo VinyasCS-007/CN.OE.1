@@ -24,7 +24,7 @@ public class MainFrame extends JFrame{
 	
 	
 	public MainFrame() throws HeadlessException {
-		super("CICFlowMeter");
+		super("CICFlowMeter - Created by Vinyas CS");
 		
 		getContentPane().setLayout(new BorderLayout());
 		getContentPane().getInsets().set(5, 5, 5, 5);
@@ -33,6 +33,12 @@ public class MainFrame extends JFrame{
 		setMinimumSize(new Dimension(700,500));
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		setLocationRelativeTo(null);
+
+		// Show author info dialog on startup
+		JOptionPane.showMessageDialog(this,
+			"CICFlowMeter\nCreated by Vinyas CS",
+			"About",
+			JOptionPane.INFORMATION_MESSAGE);
 
 
         addWindowListener(new WindowAdapter() {

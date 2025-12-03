@@ -12,7 +12,7 @@ import java.io.*;
 import java.util.Enumeration;
 
 /**
- * Created by yzhang29 on 23/11/17.
+ * Created by Vinyas CS
  */
 public class SwingUtils {
     protected static final Logger logger = LoggerFactory.getLogger(SwingUtils.class);

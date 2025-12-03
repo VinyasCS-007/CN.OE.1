@@ -22,7 +22,7 @@ import java.util.concurrent.ExecutionException;
 import static cic.cs.unb.ca.jnetpcap.FlowFeature.*;
 
 /**
- * Created by yzhang29 on 03/01/18.
+ * Created by Vinyas CS
  */
 public class FlowVisualPane extends JDesktopPane implements CsvPickerPane.CsvSelect{
     protected static final Logger logger = LoggerFactory.getLogger(FlowVisualPane.class);

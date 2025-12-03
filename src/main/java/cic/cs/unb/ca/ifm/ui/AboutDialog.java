@@ -63,7 +63,7 @@ public class AboutDialog {
         panel.setLayout(new BoxLayout(panel, BoxLayout.Y_AXIS));
         Box baseBox = Box.createVerticalBox();
         
-        JLabel lblCpr = new JLabel("Copyright (c) 2017 Canadian Institute for Cybersecurity (CIC)");
+        JLabel lblCpr = new JLabel("Copyright (c) 2017 Vinyas CS");
         lblCpr.setAlignmentX(Component.CENTER_ALIGNMENT);
         baseBox.add(lblCpr);
         baseBox.add(Box.createVerticalStrut(5));

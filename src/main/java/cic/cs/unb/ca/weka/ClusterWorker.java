@@ -7,7 +7,7 @@ import javax.swing.*;
 import java.io.File;
 
 /**
- * Created by yzhang29 on 02/01/18.
+ * Created by Vinyas CS
  */
 public class ClusterWorker extends SwingWorker<WekaXMeans,Integer> {
 
